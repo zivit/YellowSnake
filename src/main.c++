@@ -1,13 +1,13 @@
 #include <SFML/Graphics.hpp>
-#include "Map.hpp"
-#include "MapGenerator.hpp"
-#include "Drawing.hpp"
-#include "Snake.hpp"
-#include "Food.hpp"
-#include "Collisions.hpp"
-#include "HiscoreLoader.hpp"
-#include "GameStates.hpp"
-#include "IconData.hpp"
+#include "Map.h++"
+#include "MapGenerator.h++"
+#include "Drawing.h++"
+#include "Snake.h++"
+#include "Food.h++"
+#include "Collisions.h++"
+#include "HiscoreLoader.h++"
+#include "GameStates.h++"
+#include "IconData.h++"
 
 
 int main()

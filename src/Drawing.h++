@@ -3,10 +3,10 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 
-#include "Coords.hpp"
-#include "Map.hpp"
-#include "Snake.hpp"
-#include "Food.hpp"
+#include "Coords.h++"
+#include "Map.h++"
+#include "Snake.h++"
+#include "Food.h++"
 
 
 void drawMap(sf::RenderTarget& target, const std::vector<sg::Coords>& mapCoord)

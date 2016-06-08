@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include "Map.hpp"
+#include "Map.h++"
 
 
 void generateLevel1(Map& map)

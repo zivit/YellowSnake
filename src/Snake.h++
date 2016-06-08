@@ -1,8 +1,8 @@
 #pragma once
 
 #include <deque>
-#include "Coords.hpp"
-#include "Color.hpp"
+#include "Coords.h++"
+#include "Color.h++"
 
 class Snake
 {

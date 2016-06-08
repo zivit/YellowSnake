@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include "Coords.hpp"
+#include "Coords.h++"
 
 
 class Map

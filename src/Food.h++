@@ -1,7 +1,7 @@
 #pragma once
 #include <random>
 #include <ctime>
-#include "Coords.hpp"
+#include "Coords.h++"
 
 class Food
 {

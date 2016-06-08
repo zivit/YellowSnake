@@ -1,4 +1,4 @@
-#include "Snake.hpp"
+#include "Snake.h++"
 
 
 Snake::Snake(sg::Coords coords)

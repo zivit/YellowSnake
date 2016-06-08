@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Coords.hpp"
-#include "Map.hpp"
-#include "Snake.hpp"
-#include "Food.hpp"
+#include "Coords.h++"
+#include "Map.h++"
+#include "Snake.h++"
+#include "Food.h++"
 
 
 bool checkCollisions(Snake& snake, Food& food)

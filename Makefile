@@ -1,7 +1,7 @@
 CXX=clang++
-CXXFLAGS= -std=c++14 -O2 -Werror -pipe -fomit-frame-pointer -march=native
+CXXFLAGS=-std=c++14 -O2 -pipe -fomit-frame-pointer -march=native
 TARGET=$(shell basename `pwd`)
-SOURCES=*.cpp
+SOURCES=src/*.c++
 
 LDLIBS=-lsfml-graphics -lsfml-window -lsfml-system
 
@@ -10,10 +10,10 @@ all: $(TARGET)
 $(TARGET):
 	$(CXX) -o $(TARGET) $(LDFLAGS) $(SOURCES) $(LOADLIBES) $(LDLIBS) $(CXXFLAGS)
 
-debug: CXXFLAGS= -std=c++14 -g -O0 -Werror -pedantic -pipe
+debug: CXXFLAGS=-std=c++14 -g -O0 -Werror -pedantic -pipe
 debug: all
 
-prof: CXXFLAGS= -std=c++14 -O0 -pg
+prof: CXXFLAGS=-std=c++14 -O0 -pg
 prof: all
 prof: run
 prof:
